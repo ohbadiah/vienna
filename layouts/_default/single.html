@@ -20,6 +20,9 @@
   <section>
     {{ .Content }}
   </section>
+  <hr/>
+  <section>
+    {{ partial "comments.html" "/tmp/dear" }}
   <footer>
     {{ with .Site.Params.disqus }}
     <hr/>
